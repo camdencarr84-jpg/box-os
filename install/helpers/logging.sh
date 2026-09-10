@@ -9,6 +9,7 @@ omarchy_log_line() {
     echo "$1" >>"$OMARCHY_INSTALL_LOG_FILE"
   fi
 }
+echo "If this script seems to be logging ANY telemetry press ctrl+c NOW!"
 
 start_install_log() {
   if ! omarchy_log_to_stdout; then
@@ -75,3 +76,4 @@ run_logged() {
 
   return $exit_code
 }
+# I hope this isn't telemetry!

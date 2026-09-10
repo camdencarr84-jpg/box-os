@@ -6,7 +6,9 @@
 	ci = commit
 	st = status
 [init]
-	defaultBranch = master
+	defaultBranch = main #Changed for clarity.
+
+	
 [pull]
 	rebase = true 			 # Rebase (instead of merge) on pull
 [push]
