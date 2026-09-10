@@ -1,0 +1,8 @@
+# Set links for Nautilus action icons
+mkdir -p /usr/share/icons/Yaru/scalable/actions
+ln -snf /usr/share/icons/Adwaita/symbolic/actions/go-previous-symbolic.svg \
+          /usr/share/icons/Yaru/scalable/actions/go-previous-symbolic.svg
+ln -snf /usr/share/icons/Adwaita/symbolic/actions/go-next-symbolic.svg \
+          /usr/share/icons/Yaru/scalable/actions/go-next-symbolic.svg
+gtk-update-icon-cache /usr/share/icons/Yaru &>/dev/null || true
+# Woops, we don't have Chromium here....

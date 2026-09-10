@@ -1,0 +1,7 @@
+[[ -r /usr/share/omarchy/default/bash/env-bootstrap ]] && source /usr/share/omarchy/default/bash/env-bootstrap
+
+[[ $- != *i* ]] && return
+
+source "$OMARCHY_PATH/default/bash/rc"
+
+# DO NOT SCREW AROUND WITH THIS FILE UNLESS YOU: WERE TOLD BY YOUR BOSS TO DO IT OR: YOU ARE LINUS TORVALDS. I SCREWED THIS UP ONCE I WILL NEVER TOUCH IT AGAIN, YOU HAVE BEEN WARNED.
